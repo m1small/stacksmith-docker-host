@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -euo pipefail
+
 #remove old docker
 sudo yum remove docker \
                   docker-client \
